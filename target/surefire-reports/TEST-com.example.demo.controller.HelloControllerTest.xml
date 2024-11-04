@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.demo.DemoApplicationTests" time="1.906" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.demo.controller.HelloControllerTest" time="4.523" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -51,6 +51,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="applicationStarts" classname="com.example.demo.DemoApplicationTests" time="0.936"/>
-  <testcase name="contextLoads" classname="com.example.demo.DemoApplicationTests" time="0.004"/>
+  <testcase name="testHelloWithDifferentMethod" classname="com.example.demo.controller.HelloControllerTest" time="0.656"/>
+  <testcase name="testHelloWithExtraPath" classname="com.example.demo.controller.HelloControllerTest" time="0.012"/>
+  <testcase name="testHello" classname="com.example.demo.controller.HelloControllerTest" time="0.038"/>
+  <testcase name="testHelloWithMissingTrailingSlash" classname="com.example.demo.controller.HelloControllerTest" time="0.008"/>
+  <testcase name="testHelloWithQueryString" classname="com.example.demo.controller.HelloControllerTest" time="0.009"/>
+  <testcase name="testHelloWithInvalidPath" classname="com.example.demo.controller.HelloControllerTest" time="0.008"/>
+  <testcase name="testHelloWithRootPath" classname="com.example.demo.controller.HelloControllerTest" time="0.006"/>
 </testsuite>
